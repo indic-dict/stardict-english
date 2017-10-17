@@ -1,3 +1,3 @@
-<http://download.huzheng.org/freedict.de/stardict-freedict-lat-eng-2.4.2.tar.bz2>
-<http://download.huzheng.org/freedict.de/stardict-freedict-spa-eng-2.4.2.tar.bz2>
+<https://archive.org/download/stardict_collections/archives-english/other-head/stardict-freedict2-lat-eng-2.4.2.tar.bz2>
+<https://archive.org/download/stardict_collections/archives-english/other-head/stardict-freedict2-spa-eng-2.4.2.tar.bz2>
 
