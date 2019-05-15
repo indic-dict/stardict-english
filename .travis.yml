@@ -8,9 +8,6 @@ install:
 git:
   depth: 1
 
-script: 
-  - make all
-
 deploy:      
   provider: pages
   skip_cleanup: false
