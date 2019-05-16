@@ -1,12 +1,12 @@
 language: java
 if: branch = master
 
-install:
-  - sudo apt-get install -y stardict-tools
-  - git clone https://github.com/indic-dict/dict-tools.git ~/dict-tools/ --depth 1
-
 git:
   depth: 1
+
+script:
+  - git add -A -v
+  - git commit -m "Add auto-built files."
 
 deploy:
   provider: pages
