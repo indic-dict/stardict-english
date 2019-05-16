@@ -8,11 +8,6 @@ install:
 git:
   depth: 1
 
-script:
-  - make full
-  - git add -A -v
-  - git commit -m "Add auto-built files."
-
 deploy:
   provider: pages
   skip_cleanup: false
