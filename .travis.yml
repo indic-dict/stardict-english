@@ -1,0 +1,14 @@
+language: java
+if: branch = master
+
+git:
+  depth: 1
+
+script:
+  - echo "no building - just pushing to gh-pages."
+
+deploy:
+  provider: pages
+  skip_cleanup: false
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: false
