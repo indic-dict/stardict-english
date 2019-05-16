@@ -5,8 +5,7 @@ git:
   depth: 1
 
 script:
-  - git add -A -v
-  - git commit -m "Add auto-built files."
+  - echo "no building - just pushing to gh-pages."
 
 deploy:
   provider: pages
